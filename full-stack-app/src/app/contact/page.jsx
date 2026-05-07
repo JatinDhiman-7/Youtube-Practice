@@ -1,9 +1,9 @@
-
+import styles from "./page.module.css"
 
 const contact = () => {
     return (
-        <div>
-            contact
+        <div className={styles.container}>
+            Contact
         </div>
     )
 }
